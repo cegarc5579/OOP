@@ -13,7 +13,10 @@ class Coin:
     #and all our coins are starting with heads up
     #self.____ are attributes
     def __init__(self):
-        self.sideup = 'Heads'
+        #putting two underscores will hide data attributes
+        #make sure you put it everywhere sideup is
+        #when something is gray that means it isn't being used anywhere
+        self.__sideup = 'Heads'
 
     # The toss method generates a random number
     # in the range of 0 through 1. If the number
@@ -27,12 +30,12 @@ class Coin:
 
     def toss(self):
         if random.randint(0, 1) == 0:
-            self.sideup = 'Heads'
+            self.__sideup = 'Heads'
         else:
-            self.sideup = 'Tails'
+            self.__sideup = 'Tails'
 
     # The get_sideup method returns the value
     # referenced by sideup.
     #THIS METHOD RETURNS THE VALUE OF THE ATTRIBUTE SIDEUP
     def get_sideup(self):
-            return self.sideup
+            return self.__sideup

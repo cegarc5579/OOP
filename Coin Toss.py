@@ -22,6 +22,11 @@ def main():
        #the following code flips the coin 10 times
        for count in range(10):
            my_coin.toss()
+           #the bottom code would always give it heads
+           #this is bad because you dont want to be able to manipulate it outside of class file
+           #we put two underscores in the class file and this hides the following line of code
+           #means they can't change it in the actual program
+           my_coin.sideup = 'Heads'
            
            # Display the side of the coin that is facing up.
            print('This side is up:', my_coin.get_sideup())
