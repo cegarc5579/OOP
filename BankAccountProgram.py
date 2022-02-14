@@ -28,7 +28,7 @@ def main():
    print('Your account balance is $', 
         format(savings.get_balance(), ',.2f'),
         sep='')
-
+#savings is an instance of bank account class
    print(savings)
 
 # Call the main function.
