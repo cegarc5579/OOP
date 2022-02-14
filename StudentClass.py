@@ -6,10 +6,3 @@ class Student:
         self.__dateofb = dateob
         self.__classification = classif
     
-    def currentage(self,dateob):
-        self.__dateofb = dateob 
-    
-    def registerdate(self):
-        self.__
-    
-
