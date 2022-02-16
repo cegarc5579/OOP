@@ -5,6 +5,7 @@ class RetailItem():
         self.__unitsinv = unitsinv
         self.__price = price
     
+  
     def get_itemdescrip(self):
         return self.__itemdescrip
     def get_unitsininven(self):
