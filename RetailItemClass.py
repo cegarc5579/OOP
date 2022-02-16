@@ -12,3 +12,4 @@ class RetailItem():
         return self.__unitsinv 
     def get_price(self):
         return self.__price 
+        

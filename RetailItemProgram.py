@@ -1,10 +1,7 @@
+
 import RetailItemClass as ric 
 
 def main():
-    #descrip = {"Jacket", "Designer Jeans", "shirt"}
-    #unitsinv = {"12","40","20"}
-    #price = {"$59.95", "$34.95", "$24.95"}
-
 
     item1 = ric.RetailItem("Jacket","12", "$59.95")
     item2 = ric.RetailItem("Designer Jeans","40", "$34.95")
